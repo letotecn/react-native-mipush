@@ -78,7 +78,7 @@ RCT_EXPORT_METHOD(getAllTopic :(RCTPromiseResolveBlock)resolve
 
 + (void)application:(id)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [MiPushSDK registerMiPush:self type:0 connect:YES];
+    [MiPushSDK registerMiPush:self type:0 connect:NO];
     NSLog(@"注册");
 }
 
